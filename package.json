@@ -1,6 +1,6 @@
 {
-  "homepage": "https://itsmewaqas.github.io/reportdesigner",
-  "name": "reportdesigner",
+  "homepage": "https://itsmewaqas.github.io/RD",
+  "name": "RD",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

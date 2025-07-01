@@ -30,7 +30,7 @@ function PrivateReports(props) {
     const cellValue = props.valueFormatted ? props.valueFormatted : props.value;
     return (
       <div>
-        <a href='javascript:;'><BiSolidFolder size='20px' color='#A2AAB6' /></a> {cellValue}
+        <a><BiSolidFolder size='20px' color='#A2AAB6' /></a> {cellValue}
       </div>
     )
   }
@@ -226,7 +226,7 @@ function PrivateReports(props) {
             {rowData?.map((item, index) => {
               return (
                 <div key={index.toString()} className='gridBox'>
-                  <h2>{item.reportName} <a href="javascript:;"><BiDotsVerticalRounded color='#A4A5A9' size={24} /></a></h2>
+                  <h2>{item.reportName} <a><BiDotsVerticalRounded color='#A4A5A9' size={24} /></a></h2>
                   <img src={item.createdBy[0] === 'A' ? gridImg1 : gridImg2} alt="" />
                   <p><span style={{ backgroundColor: item.createdBy[0] === 'A' ? "#34AA44" : "#009DE1" }}>
                     {item.createdBy[0]}</span> <i>Modified:{item.modifiedOn}</i></p>

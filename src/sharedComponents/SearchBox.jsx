@@ -131,7 +131,7 @@ function SearchBox({ menuSearch, setmenuSearch }) {
                 {item.searchList.map((subItem, index) => {
                   return (
                     <li>
-                      <a href="javascript:;" key={index.toString()}>
+                      <a key={index.toString()}>
                         <p>{subItem.title}</p>
                         <dd><span>{subItem.sub1}</span> <img src={arrow1} alt="" /> <span>{subItem.sub1}</span></dd>
                       </a>

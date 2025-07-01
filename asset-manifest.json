@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RD/static/css/main.42844c02.css",
-    "main.js": "/RD/static/js/main.6fe75dd7.js",
+    "main.js": "/RD/static/js/main.ce5cff8a.js",
     "static/media/CircularStd-Light.ttf": "/RD/static/media/CircularStd-Light.84cb21ed7fad005cdee6.ttf",
     "static/media/CircularStd-Medium.ttf": "/RD/static/media/CircularStd-Medium.957de91f529a9980f66f.ttf",
     "static/media/CircularStd-Bold.ttf": "/RD/static/media/CircularStd-Bold.c43a9073eb32fc1e9dc7.ttf",
@@ -48,10 +48,10 @@
     "static/media/closeCross.svg": "/RD/static/media/closeCross.ac4a12a411f453173e42efd5b55b2a6a.svg",
     "static/media/tabularViewIcon.svg": "/RD/static/media/tabularViewIcon.fa217662f61c6782b5f8b3e951c8232b.svg",
     "main.42844c02.css.map": "/RD/static/css/main.42844c02.css.map",
-    "main.6fe75dd7.js.map": "/RD/static/js/main.6fe75dd7.js.map"
+    "main.ce5cff8a.js.map": "/RD/static/js/main.ce5cff8a.js.map"
   },
   "entrypoints": [
     "static/css/main.42844c02.css",
-    "static/js/main.6fe75dd7.js"
+    "static/js/main.ce5cff8a.js"
   ]
 }

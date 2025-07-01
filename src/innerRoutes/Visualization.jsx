@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import { SimpleButton, OutlineButton, FilledButton, ModeViewButton } from '../sharedComponents/ButtonComponents';
 import CreateFolder from '../sharedComponents/CreateFolder';
@@ -159,9 +159,6 @@ function Visualization(props) {
   console.log('getRowData', getRowData);
   // AgGrid data
 
-
-  useEffect(() => {
-  }, [])
 
   return (
     <div>

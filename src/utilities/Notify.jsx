@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import close from '../assets/images/closeCross.svg';
 import flag from '../assets/images/flag.svg';
 

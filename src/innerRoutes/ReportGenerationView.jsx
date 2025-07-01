@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { SimpleButton, OutlineButton, FilledButton, ModeViewButton } from '../sharedComponents/ButtonComponents';
 import modifyIcon from '../assets/images/modifyIcon.svg';
 import chartIcon from '../assets/images/chartIcon.svg';
@@ -167,10 +167,7 @@ function ReportGenerationView(props) {
 
   const mergedItems = Array.from(new Set([...getColumn, ...destinationItems]));
   console.log(mergedItems)
-
-  useEffect(() => {
-  }, [])
-
+  
   return (
     <div>
       {saveReport && <SaveReportModal saveReport={saveReport} setSaveReport={setSaveReport} />}

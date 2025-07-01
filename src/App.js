@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import {
-  BrowserRouter as Router,
-  BrowserRouter,
   HashRouter
 } from "react-router-dom";
 import Routers from './routes';

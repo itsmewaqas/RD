@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import { Form } from 'react-bootstrap';
 import { Scrollbars } from 'react-custom-scrollbars-2';
@@ -35,9 +35,6 @@ function DashHeader(props) {
   const keyUp = (event) => {
     setmenuSearch(event.key)
   }
-
-  useEffect(() => {
-  }, []);
 
   return (
     <div className='dashHeader'>

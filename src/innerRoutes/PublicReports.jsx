@@ -1,9 +1,5 @@
-import { useState, useEffect } from 'react';
 
 function PrivateReports(props) {
-
-  useEffect(() => {
-  }, [])
 
   return (
     <div>

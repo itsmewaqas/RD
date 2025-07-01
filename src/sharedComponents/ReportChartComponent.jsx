@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import filterPanelArrow from '../assets/images/filterPanelArrow.svg';
@@ -240,9 +240,6 @@ function ReportChartComponent(props) {
         ],
     };
     // network chat data end
-
-    useEffect(() => {
-    }, [])
 
     return (
         <div>

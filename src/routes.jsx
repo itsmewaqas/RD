@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import {
   Routes,
-  useLocation,
   Route,
   Navigate
 } from "react-router-dom";
@@ -29,10 +28,6 @@ function Routers(props) {
   const { loginDetail } = useSelector((state) => state);
   console.log('get loginDetail', loginDetail);
   const menuSlice = useSelector((state) => state.menuSlice);
-
-  // const [auth, Setauth] = useState(
-  //   { email: 'm.waqas@test.com', password: 'waqas123' }
-  // );
 
   useEffect(() => {
   }, [])

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { Scrollbars } from 'react-custom-scrollbars-2';
 import arrow1 from '../assets/images/arrow1.svg';
 
@@ -110,9 +110,6 @@ function SearchBox({ menuSearch, setmenuSearch }) {
     })
     setDetailList(filterData);
   }
-
-  useEffect(() => {
-  }, []);
 
   return (
     <div>

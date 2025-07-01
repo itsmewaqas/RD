@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Row, Col, Form, Button, Table, Modal } from 'react-bootstrap';
 import { connect, useSelector, useDispatch } from 'react-redux';
 import { Chart as ChartJS, CategoryScale, ArcElement, LinearScale, RadialLinearScale, BarElement, Title, Tooltip, Legend, PointElement, LineElement } from 'chart.js';

@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react';
+import { useState } from 'react';
 import { SimpleButton, OutlineButton, FilledButton, ModeViewButton } from '../sharedComponents/ButtonComponents';
 import addwidgetsIcon from '../assets/images/addwidgetsIcon.svg';
 import previewIcon from '../assets/images/previewIcon.svg';
@@ -290,9 +290,6 @@ function VisualReportGenerationView(props) {
     ],
   };
   // network chat data end
-
-  useEffect(() => {
-  }, [])
 
   return (
     <div>

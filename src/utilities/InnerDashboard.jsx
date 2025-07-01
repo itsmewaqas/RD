@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Outlet, useLocation } from "react-router-dom";
 import DashHeader from '../utilities/DashHeader';
 import DashSidebar from '../utilities/DashSidebar';
@@ -24,9 +24,6 @@ function InnerDashboard(props) {
     titleCtrlSet(titleCtrl == 'titleShow' ? 'titleHide' : 'titleShow');
     SetdashContainer(dashContainer == 'dContainer' ? 'dContainerCollaps' : 'dContainer');
   }
-
-  useEffect(() => {
-  }, [])
 
   return (
     <div className={`dMain`}>

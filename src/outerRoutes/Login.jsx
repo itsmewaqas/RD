@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Container, Row, Col, Button, Form, Spinner } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { loginMethod } from '../redux/reducer/loginDetail';
@@ -45,9 +45,6 @@ function Login() {
       }
     }
   }
-
-  useEffect(() => {
-  }, [])
 
   if (loginDetail.loading) {
     return (<Spinner animation="border" role="status" variant="primary" size="md">

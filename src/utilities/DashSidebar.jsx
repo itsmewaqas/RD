@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { BiUserPin, BiMoneyWithdraw, BiCompass, BiChevronLeft, BiChevronDown } from "react-icons/bi";
 import icon1 from '../assets/images/sidebarIcon1.svg';
 import icon2 from '../assets/images/sidebarIcon2.svg';

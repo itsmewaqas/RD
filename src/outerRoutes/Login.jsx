@@ -61,12 +61,12 @@ function Login() {
             <div className='mt-4 my-5 px-5'>
               <Form.Group className="mb-3">
                 <Form.Label>Username</Form.Label>
-                <Form.Control type="email" name="email" value={values.email} placeholder="name@example.com" onChange={handleChnage} />
+                <Form.Control type="email" name="email" value={values.email} placeholder="Please enter a valid email address in the format: name@example.com" onChange={handleChnage} />
                 {errors.email && <p className='error'>{errors.email}</p>}
               </Form.Group>
               <Form.Group className="mb-3">
                 <Form.Label>Password</Form.Label>
-                <Form.Control type="password" name="password" value={values.password} placeholder="***********" onChange={handleChnage} />
+                <Form.Control type="password" name="password" value={values.password} placeholder="Please enter a valid password, such as 12345678" onChange={handleChnage} />
                 {errors.password && <p className='error'>{errors.password}</p>}
               </Form.Group>
               <Button type='submit' variant="primary" className='mt-1'>Login</Button>
